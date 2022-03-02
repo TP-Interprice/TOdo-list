@@ -35,6 +35,16 @@ input[type=text] {
     padding: 10px 20px;
 }
 
+@media(max-width: 500px){
+    .container{
+        width: 90%;
+    }
+    input[type=text]{
+        width: 60%;
+        padding: 5px;
+    }
+}
+
 li {
     display: flex;
     justify-content: space-between;
@@ -50,7 +60,7 @@ p {
 }
 
 div {
-    width: 250px;
+    width: 28%;
     display: flex;
     justify-content: space-between;
 }
